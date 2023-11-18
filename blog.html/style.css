@@ -1,0 +1,21 @@
+#main-header{
+        text-align: center;
+        background-color:red;
+        color: rgb(31, 39, 39);
+        padding: 10px;
+}
+#main-footer{
+    text-align: center;
+    font-size: 18px;
+    clear:both;
+    padding-top: 150px;     
+}
+
+aside{
+    float: left;
+    text-align: center;
+}
+
+section{
+    float: right;
+}

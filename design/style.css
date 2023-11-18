@@ -1,0 +1,174 @@
+body{
+    background-color:rgb(250, 250, 250);
+    color: #080606;
+    
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 18px;
+    
+    font-weight: normal;
+
+    line-height: 1.6em;
+
+    margin: 120px;
+}
+
+a{
+    text-decoration: none;
+    color:#080606;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: green;
+}
+.btn{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+.clear-fix{
+    clear:both;
+}
+.btn:hover{
+    background-color: red;
+    color: white;
+}
+
+.container{
+    width: 80%;
+    margin:auto;
+}
+.box-1{
+    background-color: #333333;
+    color: bisque;
+
+    border-top: 5px red solid;
+    border-right: 5px yellow solid;
+    border-bottom: 5px green solid;
+    border-left: 5px blue solid;
+
+    padding: 20px;
+    margin-top: 20px;
+}
+.box-1 h1{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-style: oblique;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em; 
+}
+.box-2{
+    background-color: blueviolet;
+    color: black;
+    border-top: 5px red solid;
+    border-right: 5px yellow solid;
+    border-bottom: 5px green solid;
+    border-left: 5px blue solid;
+    padding: 20px;
+    margin: 100px 0px;
+}
+.box-2 h1{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-style:italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em; 
+}
+.categories{
+    border: 1px #ccc solid;
+    padding: 20px;
+    border-radius: 15px;
+}
+.categories h2{
+    text-align: center;
+}
+.categories ul{
+    padding: 0px;
+    list-style: none;
+}
+.categories li{
+    padding-bottom: 8px ;
+    border-bottom: dotted 1px #333;
+    list-style-image: url('img/check.png.png');
+}
+
+.my-form{
+    padding: 20px;
+}   
+.my-form .form-group{
+    padding-bottom:  15px;  
+}
+.my-form label{
+    display: block;
+}
+.my-form input[type="name"], .my-form textarea, .my-form input[type="email"]{
+    padding: 9px;
+    width: 100%;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 20px;  
+    box-sizing: border-box;
+}
+#main-block{
+    float: left;
+    width: 70%;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.position-box{
+    position: relative;
+    width: 800px;
+    height: 500px;
+    border: 1px solid rgb(65, 61, 61);
+    margin-top: 30px;
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.position-box h1{
+    position: absolute;
+    top: 40px;
+    left: 120px;
+    color: #ece7e7;
+}
+
+.position-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 120px;
+    color: #f5efef;
+}
+.fix-po{
+    position: fixed;
+    top: 400px;
+}
+.my-list li:first-child{
+    background: aqua;
+}
+.my-list li:last-child{
+    background: red;
+}
+.my-list li:nth-child(6){
+    background: brown;
+}
+.my-list li:nth-child(even){
+    background: gray;
+}

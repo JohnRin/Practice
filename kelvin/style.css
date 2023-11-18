@@ -1,0 +1,154 @@
+
+nav {
+    background-color: #333;
+    align-items: center;
+    text-align: center;
+
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  .about-me {
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(97, 83, 83, 0.1);
+    background-image: linear-gradient(135deg, #000000 0%, #fd0000 50%, #dfa915 50%, #997c99 100%);
+  }
+  
+  .about-me h2 {
+    color: #333;
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .about-me h3 {
+    color: #f1eeee;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  .about-me p {
+    color: #fafafa;
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: 500;
+  }
+  
+  .about-me:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-me:hover h2 {
+    color: #ff6347;
+  }
+  
+  .about-me:hover h3 {
+    color: #ff6347;
+  }
+  
+/* ........./ coursepage /.......... */
+.studentInfo {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .studentInfo .courseName {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background-color: #2db928;
+  }
+  
+  .studentInfo .mainRow {
+    background-color: #ccf384;
+    font-weight: bold;
+  }
+  
+  .studentInfo td {
+    border: 1px solid #7c2222;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .studentInfo .altRow {
+    background-color: #ffffff;
+  }
+  
+  .studentInfo tr:hover {
+    background-color: #79d84d;
+  }
+  
+  .studentInfo td:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .studentInfo td:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .studentInfo td:not(:first-child):not(:last-child) {
+    text-transform: uppercase;
+  }
+  
+  .studentInfo td:not(:first-child):not(:last-child):hover {
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+/* ........./ coursepage /.......... */  
+
+/* ........./ dreamplace /.......... */  
+.dreamplace {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .dreamplace h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .dreamplace img {
+    max-width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dreamplace:hover {
+    transform: scale(1.05);
+  }
+  
+  .dreamplace:hover h1 {
+    color: #ff6347;
+  }
+  
+/* ........./ dreamplace /.......... */  

@@ -1,0 +1,45 @@
+body {
+    padding: 20px;
+    margin: 0;
+    background-color: #f2f2f2;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    color: #3071c5;
+    margin-bottom: 10px;
+}
+
+h1.centered {
+    text-align: center;
+}
+
+u {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-bottom: 15px;
+}
+
+li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+ol {
+    margin-bottom: 15px;
+}
+
+mark {
+    background-color: #ffd700;
+    color: #333;
+    padding: 2px;
+}

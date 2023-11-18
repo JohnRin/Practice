@@ -1,0 +1,26 @@
+.complex-container{
+    padding: 20px 40px;
+    display: flex;
+}
+
+.complex-container > div{
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.content-1{
+    flex: 1;
+}
+.side-bar{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.content-2{
+    flex: 1;
+    background: coral;
+}
+
+.content-3{
+    flex: 1;
+    background: darkslateblue;
+}
